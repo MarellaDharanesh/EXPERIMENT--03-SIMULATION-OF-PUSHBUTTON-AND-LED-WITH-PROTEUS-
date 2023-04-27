@@ -110,15 +110,13 @@ Register no.:212222240062
 
 When Switch is in OFF state:
 
- ![Screenshot 2023-04-24 213927](https://user-images.githubusercontent.com/118348224/234056881-3fdd2b9a-4ff5-489c-9433-7aa406dc3126.png)
 
 When Switch is in ON state:
 
- ![Screenshot 2023-04-24 214101](https://user-images.githubusercontent.com/118348224/234056887-b3b929f6-4267-4281-bd3e-70a27e1cb17c.png)
+
 
 ## Circuit diagram:
 
-![Screenshot 2023-04-25 152236](https://user-images.githubusercontent.com/118348224/234241424-b1b76013-0cf6-4719-a035-e10fbc8937f3.png)
 
 
 ## Result :
