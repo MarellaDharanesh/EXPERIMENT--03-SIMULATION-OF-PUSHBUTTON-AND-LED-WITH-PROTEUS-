@@ -72,16 +72,55 @@ https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
 
 
 ## STM 32 CUBE PROGRAM :
-
-
-
-
+```
+#include "main.h"
+#include "stdio.h"
+#include "stdbool.h"
+bool pushbutton;
+void SystemClock_Config(void);
+static void MX_GPIO_Init(void);
+int main(void)
+{
+  HAL_Init();
+  SystemClock_Config();
+  MX_GPIO_Init();
+  while (1)
+  {
+	  pushbutton = HAL_GPIO_ReadPin(GPIOA,GPIO_PIN_4);
+	  	  if (pushbutton == 0)
+	  	    {
+	  		  HAL_GPIO_WritePin(GPIOA,GPIO_PIN_5,GPIO_PIN_SET);
+	  		  HAL_Delay(250);
+	  		  HAL_GPIO_WritePin(GPIOA,GPIO_PIN_5,GPIO_PIN_RESET);
+	  		  HAL_Delay(250);
+	  	    }
+	  	  else
+	  		{
+	  		  HAL_GPIO_WritePin(GPIOA,GPIO_PIN_5,GPIO_PIN_RESET);
+	  		  HAL_Delay(500);
+	  		}
+  }
+}
+```
+```
+programmed by:Marella Dharanesh
+Register no.:212222240062
+```
 ## Output screen shots of proteus  :
- 
- 
- 
- 
+
+When Switch is in OFF state:
+
+ ![Screenshot 2023-04-24 213927](https://user-images.githubusercontent.com/118348224/234056881-3fdd2b9a-4ff5-489c-9433-7aa406dc3126.png)
+
+When Switch is in ON state:
+
+ ![Screenshot 2023-04-24 214101](https://user-images.githubusercontent.com/118348224/234056887-b3b929f6-4267-4281-bd3e-70a27e1cb17c.png)
+
+## Circuit diagram:
+
+![Screenshot 2023-04-25 152236](https://user-images.githubusercontent.com/118348224/234241424-b1b76013-0cf6-4719-a035-e10fbc8937f3.png)
+
+
 ## Result :
 Interfacing a digital output and digital input  with ARM microcontroller are simulated in proteus and the results are verified.
-
 
