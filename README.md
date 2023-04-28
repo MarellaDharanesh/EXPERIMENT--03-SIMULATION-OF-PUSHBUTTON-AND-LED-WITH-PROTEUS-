@@ -73,52 +73,31 @@ https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
 
 ## STM 32 CUBE PROGRAM :
 ```
-#include "main.h"
-#include "stdio.h"
-#include "stdbool.h"
-bool pushbutton;
-void SystemClock_Config(void);
-static void MX_GPIO_Init(void);
-int main(void)
-{
-  HAL_Init();
-  SystemClock_Config();
-  MX_GPIO_Init();
-  while (1)
+while (1)
   {
-	  pushbutton = HAL_GPIO_ReadPin(GPIOA,GPIO_PIN_4);
-	  	  if (pushbutton == 0)
-	  	    {
-	  		  HAL_GPIO_WritePin(GPIOA,GPIO_PIN_5,GPIO_PIN_SET);
-	  		  HAL_Delay(250);
-	  		  HAL_GPIO_WritePin(GPIOA,GPIO_PIN_5,GPIO_PIN_RESET);
-	  		  HAL_Delay(250);
-	  	    }
-	  	  else
-	  		{
-	  		  HAL_GPIO_WritePin(GPIOA,GPIO_PIN_5,GPIO_PIN_RESET);
-	  		  HAL_Delay(500);
-	  		}
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET);
+	  HAL_Delay(500);
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_SET);
+	  HAL_Delay(500);
   }
-}
+  
 ```
 ```
-programmed by:Marella Dharanesh
-Register no.:212222240062
+Developed by : Marella Dharanesh
+Reg No : 212222240062
 ```
+
 ## Output screen shots of proteus  :
 
-When Switch is in OFF state:
+### WHEN LED IS OFF:
+![imppic11111](https://user-images.githubusercontent.com/118707669/235104654-fdfce3f0-328a-44bb-87e4-73b76a110f9d.png)
+
+### WHEN LED IS ON:
+
+![imppiccc](https://user-images.githubusercontent.com/118707669/235105382-6b2b3146-fe05-44e0-bf4a-b0f4fe09ee29.png)
 
 
-When Switch is in ON state:
-
-
-
-## Circuit diagram:
-
-
-
+ 
 ## Result :
 Interfacing a digital output and digital input  with ARM microcontroller are simulated in proteus and the results are verified.
 
