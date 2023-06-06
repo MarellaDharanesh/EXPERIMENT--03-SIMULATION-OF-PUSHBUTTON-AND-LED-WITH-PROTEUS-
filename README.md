@@ -118,7 +118,7 @@ Reg No : 212222240062
 ### 
 ### Sketch
 
-![image](https://github.com/MarellaDharanesh/EXPERIMENT--03-SIMULATION-OF-PUSHBUTTON-AND-LED-WITH-PROTEUS-/assets/118707669/4c0dfd9e-ea7d-4510-90a0-7208a2ab620d)
+![image](https://github.com/MarellaDharanesh/EXPERIMENT--03-SIMULATION-OF-PUSHBUTTON-AND-LED-WITH-PROTEUS-/assets/118707669/a71dea6a-cfae-48dd-986a-6f2b21a9fbf2)
 
  
 ## Result :
