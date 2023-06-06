@@ -86,17 +86,17 @@ int main(void)
   MX_GPIO_Init();
   while (1)
   {
-	  pushbutton = HAL_GPIO_ReadPin(GPIOA,GPIO_PIN_4);
+	  pushbutton = HAL_GPIO_ReadPin(GPIOA,GPIO_PIN_0);
 	  	  if (pushbutton == 0)
 	  	    {
-	  		  HAL_GPIO_WritePin(GPIOA,GPIO_PIN_5,GPIO_PIN_SET);
+	  		  HAL_GPIO_WritePin(GPIOA,GPIO_PIN_1,GPIO_PIN_SET);
 	  		  HAL_Delay(250);
-	  		  HAL_GPIO_WritePin(GPIOA,GPIO_PIN_5,GPIO_PIN_RESET);
+	  		  HAL_GPIO_WritePin(GPIOA,GPIO_PIN_1,GPIO_PIN_RESET);
 	  		  HAL_Delay(250);
 	  	    }
 	  	  else
 	  		{
-	  		  HAL_GPIO_WritePin(GPIOA,GPIO_PIN_5,GPIO_PIN_RESET);
+	  		  HAL_GPIO_WritePin(GPIOA,GPIO_PIN_1,GPIO_PIN_RESET);
 	  		  HAL_Delay(500);
 	  		}
   }
@@ -115,7 +115,8 @@ Reg No : 212222240062
 ### WHEN LED IS ON:
 
 ![imppiccc](https://user-images.githubusercontent.com/118707669/235105382-6b2b3146-fe05-44e0-bf4a-b0f4fe09ee29.png)
-
+### 
+![image](https://github.com/MarellaDharanesh/EXPERIMENT--03-SIMULATION-OF-PUSHBUTTON-AND-LED-WITH-PROTEUS-/assets/118707669/df15a07f-1cc7-4366-b2d4-120516d873cf)
 
  
 ## Result :
