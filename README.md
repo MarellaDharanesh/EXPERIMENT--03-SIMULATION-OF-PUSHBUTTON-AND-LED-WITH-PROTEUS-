@@ -116,6 +116,8 @@ Reg No : 212222240062
 
 ![imppiccc](https://user-images.githubusercontent.com/118707669/235105382-6b2b3146-fe05-44e0-bf4a-b0f4fe09ee29.png)
 ### 
+![image](https://github.com/MarellaDharanesh/EXPERIMENT--03-SIMULATION-OF-PUSHBUTTON-AND-LED-WITH-PROTEUS-/assets/118707669/4c0dfd9e-ea7d-4510-90a0-7208a2ab620d)
+
  
 ## Result :
 Interfacing a digital output and digital input  with ARM microcontroller are simulated in proteus and the results are verified.
