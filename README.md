@@ -110,15 +110,19 @@ Reg No : 212222240062
 ## Output screen shots of proteus  :
 
 ### WHEN LED IS OFF:
-![imppic11111](https://user-images.githubusercontent.com/118707669/235104654-fdfce3f0-328a-44bb-87e4-73b76a110f9d.png)
+![WhatsApp Image 2023-06-09 at 18 24 24](https://github.com/MarellaDharanesh/EXPERIMENT--03-SIMULATION-OF-PUSHBUTTON-AND-LED-WITH-PROTEUS-/assets/118707669/cef471dc-d19b-49db-81df-3351f1a86b83)
+
 
 ### WHEN LED IS ON:
 
-![imppiccc](https://user-images.githubusercontent.com/118707669/235105382-6b2b3146-fe05-44e0-bf4a-b0f4fe09ee29.png)
+![WhatsApp Image 2023-06-09 at 18 24 24](https://github.com/MarellaDharanesh/EXPERIMENT--03-SIMULATION-OF-PUSHBUTTON-AND-LED-WITH-PROTEUS-/assets/118707669/57e3ea3d-a26f-4635-b835-a956419117f7)
+
 ### 
 ### Sketch
 
-![image](https://github.com/MarellaDharanesh/EXPERIMENT--03-SIMULATION-OF-PUSHBUTTON-AND-LED-WITH-PROTEUS-/assets/118707669/a71dea6a-cfae-48dd-986a-6f2b21a9fbf2)
+![WhatsApp Image 2023-06-09 at 18 24 22](https://github.com/MarellaDharanesh/EXPERIMENT--03-SIMULATION-OF-PUSHBUTTON-AND-LED-WITH-PROTEUS-/assets/118707669/690dae8d-79c7-4987-b6c3-23fb8304847f)
+
+
 
  
 ## Result :
